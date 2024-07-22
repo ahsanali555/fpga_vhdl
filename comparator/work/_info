@@ -1,0 +1,211 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/16.1
+Ehex_to_seg
+Z0 w1699313242
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Administrator/Downloads/Lab01/Lab01_comparator
+Z4 8C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/hex_to_seg.vhd
+Z5 FC:/Users/Administrator/Downloads/Lab01/Lab01_comparator/hex_to_seg.vhd
+l0
+L4
+Vm97V@gcm623SjT>I`PP:Z1
+!s100 Mc3EDN<PodNMDSR9HT?dT1
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1699385499
+!i10b 1
+Z8 !s108 1699385499.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/hex_to_seg.vhd|
+Z10 !s107 C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/hex_to_seg.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 10 hex_to_seg 0 22 m97V@gcm623SjT>I`PP:Z1
+l11
+L10
+V^S6BW:DR_A`1AlQhWR9e33
+!s100 mcSRFU[ST`Vf^>Qeh>UK[2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Elab01_comparator
+Z13 w1699384083
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z15 8C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator.vhd
+Z16 FC:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator.vhd
+l0
+L5
+VG3?0KgU7=E`3mdJ9_4z0n1
+!s100 nMHb2Y@9NODY?0XfWKASU0
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator.vhd|
+Z18 !s107 C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator.vhd|
+!i113 1
+R11
+R12
+Abeh
+R14
+R1
+R2
+DEx4 work 16 lab01_comparator 0 22 G3?0KgU7=E`3mdJ9_4z0n1
+l30
+L11
+V=in7I0_Hb:272FU:a@@^o1
+!s100 iLaoUVh]dOiV49F;F^iz90
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Elab01_comparator_tb
+Z19 w1699385453
+R1
+R2
+R3
+Z20 8C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator_tb.vhd
+Z21 FC:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator_tb.vhd
+l0
+L4
+VlT_Eh7^5TgIPHg5KFz73j2
+!s100 j:IRK;[o628J<9IN7>oo91
+R6
+32
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator_tb.vhd|
+Z23 !s107 C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator_tb.vhd|
+!i113 1
+R11
+R12
+Abeh
+R1
+R2
+DEx4 work 19 lab01_comparator_tb 0 22 lT_Eh7^5TgIPHg5KFz73j2
+l19
+L7
+Vj_A3Ycd<oIPaYf`F1D<hV2
+!s100 gP:aF[nbhM:ZgIcHSHTjY1
+R6
+32
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12
+Esigned_comparator
+Z24 w1699312837
+R14
+R1
+R2
+R3
+Z25 8C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/signed_comparator.vhd
+Z26 FC:/Users/Administrator/Downloads/Lab01/Lab01_comparator/signed_comparator.vhd
+l0
+L5
+VlIhfcRY]3R<B9n;i5T^]D2
+!s100 4cKNh<XSN3abJVjSzV4D31
+R6
+32
+R7
+!i10b 1
+R8
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/signed_comparator.vhd|
+Z28 !s107 C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/signed_comparator.vhd|
+!i113 1
+R11
+R12
+Abeh
+R14
+R1
+R2
+DEx4 work 17 signed_comparator 0 22 lIhfcRY]3R<B9n;i5T^]D2
+l13
+L12
+VACOa3LNf[Iaa:WUX6mdGO1
+!s100 U5HHZ>ZX7^22b?;nO6aNB1
+R6
+32
+R7
+!i10b 1
+R8
+R27
+R28
+!i113 1
+R11
+R12
+Eunsigned_comparator
+Z29 w1699315608
+R14
+R1
+R2
+R3
+Z30 8C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/unsigned_comparator.vhd
+Z31 FC:/Users/Administrator/Downloads/Lab01/Lab01_comparator/unsigned_comparator.vhd
+l0
+L5
+VW[F2d;?ka3>HXf6N4hNGQ0
+!s100 JUDiWC^bPc;`R`j2gdQLC2
+R6
+32
+R7
+!i10b 1
+R8
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/unsigned_comparator.vhd|
+Z33 !s107 C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/unsigned_comparator.vhd|
+!i113 1
+R11
+R12
+Abeh
+R14
+R1
+R2
+Z34 DEx4 work 19 unsigned_comparator 0 22 W[F2d;?ka3>HXf6N4hNGQ0
+l13
+L12
+Z35 V3lPk<T5_dS6Y>T_hMjXge0
+Z36 !s100 z][60P1EDKkQQE<N]X3f90
+R6
+32
+R7
+!i10b 1
+R8
+R32
+R33
+!i113 1
+R11
+R12

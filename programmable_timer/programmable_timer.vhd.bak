@@ -1,0 +1,38 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+
+ENTITY programmable_timer IS
+	PORT (CLOCK_50: IN STD_LOGIC; --clock of 50 MHz CLOCK_50
+		SW: IN std_logic_vector(2 downto 0);
+		KEY0, KEY1, KEY2 : IN STD_LOGIC; --asynchronous RESET
+		HEXO, HEX1, HEX2: OUT std_logic_vector (6 downto 0); -- 7-segment displays
+		LEDR: OUT std_logic_vector(7 downto 0)
+	);
+END programmable_timer;
+
+ARCHITECTURE BEHAVIOR OF programmable_timer is
+
+SIGNAL count_value: std_logic_vector (34 downto 0) := (OTHERS => '0'); 
+
+BEGIN
+	PROCESS (CLOCK_50, KEY0, KEY2, KEY2)
+	BEGIN
+		-- IF (KEY0='1') THEN -- reset 
+			IF (SW="000") THEN
+				LEDR <= "00000001";
+			ELSIF (SW="001") THEN
+				LEDR <= "00000010";
+			ELSIF (SW="010") THEN
+				LEDR <= "00000100";
+			ELSIF (SW="011") THEN
+				LEDR <= "00001000";
+			ELSIF (SW="100") THEN
+				LEDR <= "00010000";
+			ELSIF (SW="101") THEN
+				LEDR <= "00100000";
+			ELSIF (SW="111") THEN
+				LEDR <= "01000000";
+	END IF;
+	END PROCESS; 
+END BEHAVIOR;

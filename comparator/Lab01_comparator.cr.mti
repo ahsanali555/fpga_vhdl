@@ -1,0 +1,87 @@
+C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Lab01_comparator_tb
+-- Compiling architecture beh of Lab01_comparator_tb
+
+} {} {}} C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/unsigned_comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/unsigned_comparator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity unsigned_comparator
+-- Compiling architecture beh of unsigned_comparator
+
+} {} {}} {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/unsigned_comparator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/unsigned_comparator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity unsigned_comparator
+-- Compiling architecture beh of unsigned_comparator
+
+} {} {}} {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/Lab01_comparator_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/Lab01_comparator_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Lab01_comparator_tb
+-- Compiling architecture beh of Lab01_comparator_tb
+
+} {} {}} C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/signed_comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/signed_comparator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity signed_comparator
+-- Compiling architecture beh of signed_comparator
+
+} {} {}} C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/hex_to_seg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/hex_to_seg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity hex_to_seg
+-- Compiling architecture Behavioral of hex_to_seg
+
+} {} {}} {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/signed_comparator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/signed_comparator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity signed_comparator
+-- Compiling architecture beh of signed_comparator
+
+} {} {}} {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/hex_to_seg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/hex_to_seg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity hex_to_seg
+-- Compiling architecture Behavioral of hex_to_seg
+
+} {} {}} C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Administrator/Downloads/Lab01/Lab01_comparator/Lab01_comparator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Lab01_comparator
+-- Compiling architecture beh of Lab01_comparator
+
+} {} {}} {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/Lab01_comparator.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Administrator/Downloads/Politecnico di Torino/Semester01/Digital Electronics/Labs/Lab01/Lab01/Lab01_comparator/Lab01_comparator.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Lab01_comparator
+-- Compiling architecture beh of Lab01_comparator
+
+} {} {}}

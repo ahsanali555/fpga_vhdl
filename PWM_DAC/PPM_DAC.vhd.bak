@@ -1,0 +1,44 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+	
+entity PPM_DAC is 
+	port(
+		 clk, rstn : in std_logic;
+		 D         : in std_logic_vector(7 downto 0);--Duty Cycle to be Input
+		 ppmout    : out std_logic
+		);
+end PPM_DAC;
+
+
+architecture beh of PPM_DAC is
+	constant b : integer := 2;--Additional Bits
+	constant n : integer := 8;--Normal Size of Incoming Data
+	constant conc : std_logic_vector(0 downto 0) := "0";
+	signal acc_in : std_logic_vector(8 downto 0); --N+1 Size Word
+	signal acc_out : std_logic_vector(n+b-1 downto 0);
+	signal feedback : std_logic_vector(7 downto 0);
+	signal msb : std_logic; --MSB of acc_out
+
+	begin
+	acc_in <= (conc & D) + (conc & feedback);--addition with each clockcycle
+	process(clk,rstn) 
+	begin--process
+	  if(rstn = '0') then
+		 ppmout <= '0';
+		 else
+		 if(clk'event and clk = '1') then
+			 acc_out <= acc_out + (conc & acc_in); 
+			 msb <= acc_out(n+b-1);--taking the msb 
+			 ppmout <= msb;
+		 end if;--clock
+	  end if;--reset check
+	end process;
+
+
+
+	with msb select feedback <= --multiplexing 
+	  "10000000" when  equal to -128 when signed 
+	  "01111111" when others;-- equal to +127
+end beh;
+

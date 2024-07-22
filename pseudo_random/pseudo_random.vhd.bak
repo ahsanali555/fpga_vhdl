@@ -1,0 +1,27 @@
+
+
+
+
+LIBRARY ieee;
+USE jeee.std_logic_1164.all;
+USE ieee.std_logic_unsigned. all;
+ENTITY ex 2 IS
+PORT (SW IN STD_LOGIC_VECTOR (0 DOWNTO 0); --RESET KEYO IN STD_LOGIC; --CLOCK
+LEDR: OUT std_logic_vector(9 downto 0)
+);
+END ex_2;
+ARCHITECTURE BEHAVIOR OF ex_2 is
+SIGNAL temp: std_logic_vector (9 downto 0); SIGNAL Q: std_logic_vector (26 downto 0); BEGIN
+PROCESS (KEYO, SW)
+BEGIN
+IF (SW(0)='1') THEN -- reset Q<= (OTHERS => '0'); temp<="0000000000";
+ELSIF (rising edge (KEYO)) THEN Q <= Q+1;
+IF (Q= "10111110101111000010000000") THEN Q<= (OTHERS => '0');
+END IF;
+IF temp="000000000" THEN temp<="0000000001"; else
+temp(0)<=temp (1);
+temp (1)<=temp (2); temp (2)<=temp (3) temp (3)<=temp (4) temp (4)<=temp (5) temp (5)<=temp (6) temp (6)<=temp (7); temp (7)<=temp ( temp (8)<=temp (9); temp (9)<=temp (0);
+END IF; END IF;
+END PROCESS; LEDR<= temp;
+END BEHAVIOR;
+XOR temp(1);

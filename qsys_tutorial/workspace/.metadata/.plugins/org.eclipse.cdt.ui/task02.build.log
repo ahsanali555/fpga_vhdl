@@ -1,0 +1,25 @@
+20:04:17 **** Incremental Build of configuration Nios II for project task02 ****
+make all 
+Info: Building ../task02_bsp/
+C:/intelFPGA_lite/16.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../task02_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../task02_bsp//HAL/inc -I../task02_bsp/ -I../task02_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:14:6: warning: unused variable 'key_pressed' [-Wunused-variable]
+  int key_pressed;
+      ^
+hello_world_small.c:10:6: warning: unused variable 'flag' [-Wunused-variable]
+  int flag;
+      ^
+Info: Linking task02.elf
+nios2-elf-g++  -T'../task02_bsp//linker.x' -msys-crt0='../task02_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../task02_bsp/  -msmallc  -Wl,-Map=task02.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o task02.elf obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert task02.elf --thread_model hal --cpu_name nios2_processor --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name nios_system --quartus_project_dir "C:/Users/Administrator/Downloads/Polito/DE/Lab04/task02/qsys_tutorial" --jdi ../..//output_files/lights.jdi --sopcinfo C:/Users/Administrator/Downloads/Polito/DE/Lab04/task02/qsys_tutorial/software/task02_bsp/../../nios_system.sopcinfo
+Info: (task02.elf) 628 Bytes program size (code + initialized data).
+Info:              3464 Bytes free for stack + heap.
+Info: Creating task02.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source task02.elf >task02.objdump
+[task02 build complete]
+
+20:04:24 Build Finished (took 6s.450ms)
+

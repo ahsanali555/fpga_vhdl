@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'KEYO'
+Slack : 0.654
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'KEYO'
+Slack : 0.498
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEYO'
+Slack : 1.393
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'KEYO'
+Slack : 0.687
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'KEYO'
+Slack : 0.507
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEYO'
+Slack : 1.321
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'KEYO'
+Slack : 2.078
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'KEYO'
+Slack : 0.232
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEYO'
+Slack : 1.421
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'KEYO'
+Slack : 2.224
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'KEYO'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEYO'
+Slack : 1.419
+TNS   : 0.000
+
+------------------------------------------------------------
